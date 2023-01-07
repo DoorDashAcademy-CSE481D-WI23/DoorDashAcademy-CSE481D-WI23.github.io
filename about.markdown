@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+DoorDash Academy is a game created by a team of students
+  at the University of Washington enrolled in CSE 481D (Winter 2023),
+  the games capstone.
+The game will be developed over the course of a few months
+  and will be available to the public by mid-March 2023.
+Please contact us by email if you have any questions or concerns.
