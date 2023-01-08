@@ -8,7 +8,7 @@ categories: devlog
 No project is complete without a concrete plan!
 Our public design document is available
   [here](https://docs.google.com/document/d/1w_6o9TLWrfCNzRPtxnm4JKmMGrYXpXqhbgruODkqGtI/edit).
-Please read for details on our project.
+Please read it for details on our project.
 This document is a _living document_ --
   we will continue to update it
   while we create and improve DoorDash Academy.
