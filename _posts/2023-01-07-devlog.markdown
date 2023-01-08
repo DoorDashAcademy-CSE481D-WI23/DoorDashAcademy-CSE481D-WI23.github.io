@@ -5,7 +5,7 @@ date:   2023-01-07 16:32:21 -0800
 categories: devlog
 ---
 
-No project is complete without a concrete plan!
+No project is complete without a plan!
 Our public design document is available
   [here](https://docs.google.com/document/d/1w_6o9TLWrfCNzRPtxnm4JKmMGrYXpXqhbgruODkqGtI/edit).
 Please read it for details on our project.
