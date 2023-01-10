@@ -12,6 +12,7 @@ The game will be developed over the course of a few months
 Please contact us by email if you have any questions or concerns.
 
 #### Team members:
+ * Riya Dheer
  * Connor Espig
  * Cole Hahn
  * Ashwin Naresh
