@@ -17,4 +17,4 @@ Our design document can be found [here](https://docs.google.com/document/d/1w_6o
 
 Social Media: 
 [Instagram](https://instagram.com/doordashacademygame) -
-[TikTok](https://tiktok.com/u/DoorDash_Academy)
+[TikTok](https://tiktok.com/@DoorDash_Academy)
