@@ -1,0 +1,132 @@
+---
+layout: post
+title:  "Devlog: Jan-11-2023"
+date:   2023-01-11 18:12:43 -0800
+categories: devlog
+---
+
+On Tuesday, January 10th, we had
+  our first paper prototype demonstration
+  of our game in class.
+Other groups would "play" our game by interacting
+  with our papers and we would show them how our
+  game would respond.
+In writing, the event sounds a little silly,
+  but it forced us to boil our game
+  down to a few key features, and
+  we received our first round of feedback
+  before writing any game code.
+
+![Paper Prototype Flowchart](/assets/img/paper-prototype-flowchart.png)
+*A flowchart of our paper prototype showing transitions between
+  various "screens" a player may encounter.*
+
+Overall, the testing session went well.
+While testers remarked that our UI elements could
+  be more descriptive, they stated that the experience
+  was intuitive, and our game idea was easy to understand.
+In fact, the transitions between each paper
+  took more time to explain than any actual game rule.
+It was hard to demonstrate how our game required
+  strategically planning routes across the map
+  to achieve the best time.
+Throughout the demonstration,
+  testers offered a number of possible improvements to the game
+  and asked multiple questions that we had not considered at the time.
+
+### Improvements
+
+*The menu of playable maps should have explicit map names.*
+
+Agreed.
+Not much to explain here.
+
+*Minimap should emulate Google Maps.*
+
+This is a driving simulator, after all.
+We're not entirely sure how feasible it is to implement this over the next few months.
+It may end up looking like a nondescript
+ rectangle with some lines for roads.
+
+*There should be an in-game button to view the full map.*
+
+A must-have feature of open-world games.
+Should DoorDash Academy have this feature?
+On one hand, it would help the player navigate to their destination,
+  but it would be more challenging to not allow them to view the map
+  while driving.
+Perhaps a middle ground is to allow the player
+  to pull up the map only if they are completely stopped
+  and it would not pause in-game time.
+
+*There should be environmental obstacles.*
+
+Car crashes, fallen trees, slick roads.
+Quite the annoyance if you want to get to your destination on time.
+While cars and pedestrians were obvious obstacles,
+  we hadn't considered any of these.
+
+*There should be a shop button.*
+
+Being able to view the shop from the main (or sub-) menu, makes sense.
+Perhaps the player would like to choose a particular map based
+  on the amount of money they need for an upgrade.
+
+*Power-ups?*
+
+Certainly, this is a staple of many game genres.
+Introducing power-ups change the mechanics of
+  the game as the player would also maneuver
+  to gain power-ups.
+More discussion is required before we make a decision on this feature.
+
+### Questions
+
+*What happens when you crash?*
+
+Two different paths here:
+  (1) an arcade-style you-crash-you-die type of game
+  where running into an obstacle results in a restart
+  and loss of money, or
+  (2) a "health" stat of some kind where you can
+  take damage multiple times, either in the form of hearts or HP.
+  
+*What happens when we speed?*
+
+Clearly, the objective of this game is speed.
+But good citizens should follow the traffic laws, right?
+Like the old GTA games, our game should have cops that
+  are there to enforce laws, which leads to the next question...
+
+*What is the interaction with cops?*
+
+Perhaps cops, either on motorcycle or in a car,
+  have a detection radius or cone.
+If a player speeds or breaks the law
+  within that detection zone, the cop will pursue
+  them and/or a ticket will be issued, resulting
+  in a financial penalty that will be applied
+  at the end of the delivery.
+
+*What happens if the temperature bar goes all the way down?*
+
+If the player refuses to make a delivery,
+  (or just drives way too slow),
+  the player will fail their delivery.
+They will certainly not earn a reward,
+  but they may also be hit with a "not delivered" penalty.
+
+*What happens when delivering frozen food?*
+
+In the case, the temperature bar will most likely be inverted
+  and the delivery must be made before the food gets too warm.
+
+
+Most of these improvements will be incorporated
+  into our game in the coming months.
+We will be presenting these findings
+  in class tomorrow.
+Enjoy some more drawings of potential improvements.
+
+![Paper Prototype Improvements](/assets/img/paper-prototype-improvements.png)
+*Paper prototypes of improvements based on testing feedback.*
