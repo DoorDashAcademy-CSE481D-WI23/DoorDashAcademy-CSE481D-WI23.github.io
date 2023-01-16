@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.footer-col-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-col-wrapper > * {
+  width: auto;
+}

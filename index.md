@@ -16,5 +16,5 @@ Deliver food to customers as quickly as possible while dodging obstacles,
 Our design document can be found [here](https://docs.google.com/document/d/1w_6o9TLWrfCNzRPtxnm4JKmMGrYXpXqhbgruODkqGtI/edit).
 
 Social Media: 
-[Instagram](https://instagram.com/doordashacademygame) -
-[TikTok](https://tiktok.com/@DoorDash_Academy)
+[Instagram](https://instagram.com/{{site.instagram_username| escape}}) -
+[TikTok](https://www.tiktok.com/@{{site.tiktok_username| escape}})

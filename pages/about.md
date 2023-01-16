@@ -12,8 +12,8 @@ The game will be developed over the course of a few months
 Please contact us by email if you have any questions or concerns.
 
 Social Media: 
-[Instagram](https://instagram.com/doordashacademygame) -
-[TikTok](https://www.tiktok.com/@doordash_academy_game)
+[Instagram](https://instagram.com/{{site.instagram_username| escape}}) -
+[TikTok](https://www.tiktok.com/@{{site.tiktok_username| escape}})
 
 #### Team members:
  * Riya Dheer
