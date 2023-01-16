@@ -13,7 +13,7 @@ Please contact us by email if you have any questions or concerns.
 
 Social Media: 
 [Instagram](https://instagram.com/doordashacademygame) -
-[TikTok](https://tiktok.com/@DoorDash_Academy)
+[TikTok](https://www.tiktok.com/@doordash_academy_game)
 
 #### Team members:
  * Riya Dheer
