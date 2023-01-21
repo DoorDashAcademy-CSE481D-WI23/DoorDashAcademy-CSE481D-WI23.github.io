@@ -30,12 +30,12 @@ instagram_username: doordashacademygame
 github_username: DoorDashAcademy-CSE481D-WI23
 
 # Build settings
+show_excerpts: true
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-show_excerpts: true
 
 exclude:
   - .sass-cache/
@@ -50,6 +50,3 @@ exclude:
   - vendor/ruby/
   - LICENSE
   - README.md
-
-include:
-  - _presskit/
