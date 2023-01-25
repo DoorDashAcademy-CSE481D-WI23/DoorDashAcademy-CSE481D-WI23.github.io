@@ -30,6 +30,8 @@ The tutorial level will serve as a intro to core game mechanics
 
 # User Controls
 
+Control the bike using arrow keys.
+
 # Vehicle AI
 
 Vehicles now move! They will stop and wait at intersections for green lights
