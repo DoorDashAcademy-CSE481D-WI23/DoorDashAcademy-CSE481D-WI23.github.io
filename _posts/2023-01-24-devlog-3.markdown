@@ -32,7 +32,14 @@ The tutorial level will serve as a intro to core game mechanics
 
 # Vehicle AI
 
+Vehicles now move! They will stop and wait at intersections for green lights
+and will also be able to detect other cars to avoid collisions. Currently
+cars only move in a straight line and do not stop to avoid the player.
+
 # Intersections and Street Lights
+
+Intersections now have stop lights that change colors. Vehicles can detect
+if their light is read or green and will stop to wait for a green light.
 
 # Main Menu
 
