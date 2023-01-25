@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Devlog: Jan-24-2023"
+date:   2023-01-24 21:26:42 -0800
+categories: devlog
+---
+
+It's been a while since we posted and
+  we thought we'd share some progress.
+The biggest update is that we actually have
+  a functional Unity project!
+We've added a tutorial level,
+  user controls, minimal vehicle AI,
+  intersections with functioning street lights,
+  a main menu, and minimal UI including a
+  minimap and a pause button.
+
+![Screenshot of gameplay showing an intersection](/assets/img/menu-screenshot.png)
+*Gameplay showing an intersection with functional
+  street lights and an approaching computer-controlled vehicle.*
+
+# Tutorial Level
+
+# User Controls
+
+# Vehicle AI
+
+# Intersections and Street Lights
+
+# Main Menu
+
+A main menu is essential to any game.
+It is the first screen that a player encounteres when
+  beginning their first playthrough.
+We've added a rather minimal main menu with
+  only three options: play the next level available
+  to the player, load the maps submenu, or quit the application.
+
+![Screenshot of the main menu](/assets/img/main-menu.png)
+*Main menu.*
+
+While the player could initially click "Play"
+  to load the next available level and begin play,
+  the player could also click "Maps" to go to
+  a submenu showing all the levels they can play.
+Since it's only been a couple of weeks,
+  we only have one map, so the map menu looks a little bare.
+
+![Screenshot of the map menu](/assets/img/maps-menu.png)
+*Maps (level-select) menu.*
+
+# In-Game UI
+
+Similarly, we have in-game UI including a minimap
+  when the player is driving their vehicle around.
+One of the interesting issues was getting
+  the minimap to render a simple version of the level.
+To do this, a grid of quadrilaterals had to be
+  placed under the tilemap mirroring the roads.
+Then a second camera was added to follow the player,
+  counteracting their rotation to ensure it remains
+  vertically oriented, and it only displayed the grid layer
+  to a texture that was mapped to the upper-left of the screen.
+
+In addition, we added a pause menu to stop gameplay,
+  and possibly return to the main menu or quit the game.
+This required a similar implementation to the main menu.
+A neat feature is the pause menu disables the in-game UI,
+  so either the minimap is displayed or the pause menu
+  but never both.
+
+![Screenshot of the pause menu](/assets/img/pause-menu.png)
+*Pause menu.*
+
+Of course, the in-game UI requires a few more bells and whistles
+  including the temperature bar, an address displaying
+  the destination, and perhaps the current street name.
