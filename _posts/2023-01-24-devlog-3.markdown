@@ -21,6 +21,13 @@ We've added a tutorial level,
 
 # Tutorial Level
 
+The tutorial level will serve as a intro to core game mechanics
+  for the player. It will not be too challenging or large.
+  Currently it is 2x3 grid of city blocks, with an arbitrary
+  boundary to stop the player from leaving the level. There is
+  a park, school, apartment building, 3 potential food pickup points,
+  and many miscellaneous buildings.
+
 # User Controls
 
 # Vehicle AI
