@@ -6,6 +6,8 @@ layout: home
 list_title: Devlog
 ---
 
+![Logo](/assets/img/1.png)
+
 DoorDash Academy is a game created by a team of students
   at the University of Washington enrolled in CSE 481D (Winter 2023),
   the games capstone.
@@ -14,5 +16,3 @@ Deliver food to customers as quickly as possible while dodging obstacles,
   breaking traffic laws, and causing chaos.
 
 Our design document can be found [here](https://docs.google.com/document/d/1w_6o9TLWrfCNzRPtxnm4JKmMGrYXpXqhbgruODkqGtI/edit).
-
-![Logo](/assets/img/1.png)
