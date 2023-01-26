@@ -27,6 +27,13 @@ The tutorial level will serve as a intro to core game mechanics
   boundary to stop the player from leaving the level. There is
   a park, school, apartment building, 3 potential food pickup points,
   and many miscellaneous buildings.
+  
+## Tilemap Serialization
+
+When we first made our level, we saw that the scene file was taking up way too
+much storage space, because we had a very large tilemap. To get around this,
+we made a script to save the tilemap more efficiently in an external file that
+can be loaded in to the editor.
 
 # User Controls
 
