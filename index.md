@@ -15,3 +15,4 @@ Deliver food to customers as quickly as possible while dodging obstacles,
 
 Our design document can be found [here](https://docs.google.com/document/d/1w_6o9TLWrfCNzRPtxnm4JKmMGrYXpXqhbgruODkqGtI/edit).
 
+![Logo](/assets/1.png)
