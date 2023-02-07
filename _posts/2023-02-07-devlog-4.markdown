@@ -15,3 +15,9 @@ We made heavy modifications to the controls: Turning has less sentitivity to but
 
 ![New Tutorial Start](/assets/img/new-tutorial-start.png)
 *Gameplay from the new tutorial level.*
+
+![Zoomed in camera while not moving](/assets/img/zoom-close-up.png)
+*Zoomed-in camera when the player is not moving.*
+
+![Zoomed out camera while moving](/assets/img/zoom-driving.png)
+*Zoomed-out camera when the player is moving.*
