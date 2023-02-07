@@ -5,8 +5,10 @@ date:   2023-02-07 10:03:42 -0800
 categories: devlog
 ---
 
-We went through an extensive playtesting session last week.
+We went through an extensive playtesting session last week where we received a ton of valuable feedback from out classmates and friends. 
 
 # Playtesting Feedback
+The biggest piece of feedback we got was that the movement was too sensitive. Even the most minute of arrow key presses would make you crash into a wall. Next, people said that the player visibility was a bit hard at times. Lastly, the tutorial was a bit cumbersome, in part due to the difficulty (too many cars and obstacles) and in part due to the lack of helpful player tips. Overall, most of the pieces of feedback were things we expected and helped us identity the most problematic components.
 
 # Changes We Made
+We made heavy modifications to the controls: Turning has less sentitivity to button presses and the turning factor is scaled based on your speed.
