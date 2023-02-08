@@ -36,8 +36,11 @@ permalink: /kickstarter/
 }
 .page-content .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: none;
+}
+.page-content .wrapper:after {
+    content: none;
 }
 .page-content .wrapper .post {
     max-width: calc(800px - (30px * 2))
