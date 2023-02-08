@@ -166,7 +166,9 @@ In the game, you start by driving to a restaurant to pick up food, and then you 
 
 The different levels in the game come in the form of different maps. So far, we have a tutorial and a simple city map, but development is already in progress for adding a rural map and a suburb map.
 
-![Key Visial](/assets/img/maps-menu.png)
+![Map Menu screen](/assets/img/maps-menu.png)
+
+In addition to unlocking new maps, players can also unlock upgrades for their vehicle using the money they earn. There are upgrades for keeping food warmer longer, driving faster, having more health, etc.
 
 ## About the team
  * Riya Dheer
