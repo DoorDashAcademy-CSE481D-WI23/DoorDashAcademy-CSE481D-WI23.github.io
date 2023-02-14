@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Devlog: Feb-13-2023"
+date:   2023-02-13 18:46:00 -0800
+categories: devlog
+---
+
+Over the weekend, we released a working version of our game.
+This version is fairly minimal with a
+  short tutorial level and a single city level.
+You can download the game [here](https://doordashacademy.itch.io/doordash-academy).
+
+![Menu Screen](/assets/img/new-menu-screen.png)
+
+# New features
+
+Most of the recent work on the game involved
+  implementing missing features and fixing bugs.
+One of the more important missing features
+  was an end level screen.
+Previously, the level would continue forever
+  until the player exited to the main menu
+  (or alternatively the game altogether,
+  presumably out of frustration).
+Now, the level can end!
+Currently, the main level (there is only one so far)
+  technically has an infinite loop but the player
+  may end at any time.
+After doing so, the amount of deliveries made
+  and money earned is reported.
+
+![Tutorial End Screen](/assets/img/tutorial-end-screen.png)
+
+# Analytics
+
+We added Unity analytics to track game information
+  such as downloads, daily average users, etc.
+  as well as in-game statistics like deliveries completed.
+Over the last three days, we've had 95 deliveries completed!
+Although who knows if that's only us.
+On the other hand, we had someone outside the class
+  leave a review on a game on itch.
+Thanks to that one person!
+
+# In the Works
+
+Some of the final features that we are trying
+  to get working before the convention day
+  include a working store (currently static)
+  as well as upgrades that the player can actually buy.
+In addition, we are working on a second large map,
+  so stay tuned for progress on that!
