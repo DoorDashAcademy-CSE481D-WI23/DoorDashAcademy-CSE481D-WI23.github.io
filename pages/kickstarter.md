@@ -6,13 +6,16 @@ permalink: /kickstarter/
 <style>
 .post {
     background: #F0F0F0;
+    z-index: 0;
 }
 .sidebar {
     position: sticky;
     border: 2px solid lightgray;
-    min-width: max-content;
+    min-width: 15vw;
+    max-width: 25vw;
     background: white;
     overflow-y: auto;
+    overflow-x: clip;
     top: 15vh;
     max-height: 75vh;
 }
@@ -21,18 +24,25 @@ permalink: /kickstarter/
     border: none;
     border-radius: 1em;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 15px 15px;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     box-shadow: 0px 8px 24px;
     transition: all 100ms;
+    width: 100%;
 }
 .sidebar button:hover {
     cursor: pointer;
     transform: scale(1.03);
-
+}
+.sidebar button h4 {
+    text-align: center;
+}
+.kickstarter-gradient {
+    background-image: linear-gradient(rgb(219, 231, 255), rgb(255, 242, 236));
+    border: 1px solid rgb(219, 231, 255);
 }
 .page-content .wrapper {
     display: flex;
@@ -60,38 +70,113 @@ permalink: /kickstarter/
     color: white;
     display: flex;
 }
-.goal .price {
+.price {
     color: lightgray;
     flex-grow: 0;
 }
-.goal .goal-name {
+.goal-name {
     flex-grow: 1;
 }
 .piechart {
   width: 300px;
   height: 300px;
-  background-image: conic-gradient(orange 64%, blue 37%);
+  background-image: conic-gradient(red 0turn 0.3turn, yellow 0.3turn 0.65turn, green 0.65turn 0.75turn, blue 0.75turn 0.95turn, purple 0.95turn 1turn);
   border-radius: 50%;
   margin: auto;
 }
+.legend {
+    width: 200px;
+    border: 1px solid gray
+}
+.legend-color {
+    width: 1em;
+    height: 1em;
+    border: 1px solid black;
+    display: inline-block;
+}
 th {
     padding: 0px;
+}
+.slider-container {
+    border: 3px solid gray;
+    height: 3em;
+    border-radius: 1.5em;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 3em;
+    text-align: center;
+}
+.slider {
+    background-color: red;
+    width: 17%;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+    flex-basis: 0;
+    position: absolute;
+    left: 0;
+    z-index: -1;
 }
 </style>
 
 <div id="kickstarter-sidebar" class="sidebar">
     <h4><b>Support</b></h4>
-    <button><h4>Donate without a reward</h4><label>$</label><input placeholder="enter a value"/></button><br />
+    <button>
+        <h4>Pledge without a reward</h4>
+        <label>$</label><input placeholder="enter a value"/>
+        <div class="kickstarter-gradient">
+            <b>Back it because you beleive in it.</b>
+            <p>Support the project for no reward, just because it speats to you.</p>
+        </div>
+    </button><br />
     <h4>Backer tiers:</h4>
-    <button><h4>Donate $2 or more</h4></button><br /><br />
-    <button><h4>Donate $5 or more</h4></button><br /><br />
-    <button><h4>Donate $15 or more</h4></button><br /><br />
-    <button><h4>Donate $45 or more</h4></button><br />
+    <button>
+        <h4>Pledge $2 or more</h4>
+        <b>Supporter</b>
+        <h5>Includes:</h5>
+        <ul>
+            <li>🎮 early access</li>
+        </ul>
+    </button><br /><br />
+    <button>
+        <h4>Pledge $5 or more</h4>
+        <b>Contributor</b>
+        <h5>Includes:</h5>
+        <ul>
+            <li>🚲 promotional sticker with our logo</li>
+            <li>🎮 early access</li>
+        </ul>
+    </button><br /><br />
+    <button>
+        <h4>Pledge $15 or more</h4>
+        <b>Generous Donor</b>
+        <h5>Includes:</h5>
+        <ul>
+            <li>👕 T-shirt with our logo</li>
+            <li>🚲 promotional sticker with our logo</li>
+            <li>🎮 early access</li>
+        </ul>
+    </button><br /><br />
+    <button>
+        <h4>Pledge $45 or more</h4>
+        <b>Team Member</b>
+        <h5>Includes:</h5>
+        <ul>
+            <li>👕 T-shirt with our logo</li>
+            <li>🚲 promotional sticker with our logo</li>
+            <li>🎮 early access</li>
+        </ul>
+    </button><br /><br />
 </div>
 
 
 
-#### this is our mock kickstarter page
+#### this is our mock kickstarter page. It's not actually real. Please don't donate to us. We don't want your money.
 --------
 ## Doordash Academy
 ![Key Visial](/assets/img/KeyVisual.png)
@@ -102,26 +187,40 @@ Doordash Academy is a food delivery simulator with some additional twists. The g
 The project has been in active development since January 2023, when it started as a capstone project for a group of students at the University of Washington.
 
 ## Goals
+<p style="text-align: center;"><b> 17% of $5k funding goal reached! </b></p>
+<div class="slider-container">
+    <div class="slider"></div>
+    <label class="price">$5000</label>
+    <label class="goal-name">Project funding</label>
+</div>
 <div class="goal">
-    <label class="price">$200</label>
+    <label class="price">$7000</label>
     <label class="goal-name">Add police AI</label>
 </div>
 <div class="goal">
-    <label class="price">$500</label>
+    <label class="price">$10000</label>
     <label class="goal-name">Create maps based on real locations</label>
 </div>
 <div class="goal">
-    <label class="price">$1200</label>
+    <label class="price">$15000</label>
     <label class="goal-name">Mobile support and publish to Google Play</label>
 </div>
 <div class="goal">
-    <label class="price">$1400</label>
+    <label class="price">$17000</label>
     <label class="goal-name">iOS support and publish to App Store</label>
 </div>
 
+
 ### kickstarter donations distribution:
 <div class="piechart"></div>
-*this is just a random pie chart*
+<div class="legend">
+    <div class="legend-color" style="background-color: red;"></div> <label>Developer fees</label><br />
+    <div class="legend-color" style="background-color: yellow;"></div> <label>Assets</label><br />
+    <div class="legend-color" style="background-color: green;"></div> <label>Software</label><br />
+    <div class="legend-color" style="background-color: blue;"></div> <label>Music</label><br />
+    <div class="legend-color" style="background-color: purple;"></div> <label>Kickstarter fees</label><br />
+</div>
+
 
 
 ### backer rewards:
