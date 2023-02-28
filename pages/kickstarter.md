@@ -5,37 +5,31 @@ permalink: /kickstarter/
 ---
 <style>
 .post {
-    background: #F0F0F0;
     z-index: 0;
 }
 .sidebar {
     position: sticky;
-    border: 2px solid lightgray;
     min-width: 15vw;
     max-width: 25vw;
-    background: white;
     overflow-y: auto;
     overflow-x: clip;
     top: 15vh;
     max-height: 75vh;
 }
 .sidebar button {
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 1em;
-    color: white;
+    background: inherit;
+    border: 2px solid lightgray;
     padding: 15px 15px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    box-shadow: 0px 8px 24px;
-    transition: all 100ms;
+    transition: all 0.2s ease-in-out;
     width: 100%;
 }
 .sidebar button:hover {
     cursor: pointer;
-    transform: scale(1.03);
+    background: rgba(0,158,116,0.9);
 }
 .sidebar button h4 {
     text-align: center;
@@ -54,6 +48,9 @@ permalink: /kickstarter/
 }
 .page-content .wrapper .post {
     max-width: calc(800px - (30px * 2))
+}
+video {
+    width: 100%;
 }
 .goal {
     background: green;
@@ -179,12 +176,17 @@ th {
 #### this is our mock kickstarter page. It's not actually real. Please don't donate to us. We don't want your money.
 --------
 ## Doordash Academy
-![Key Visial](/assets/img/KeyVisual.png)
-<!-- maybe replace this with trailer video once we have it -->
+<video preload="auto" controls muted autoplay>
+  <source src="/assets/img/trailer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Doordash Academy is a food delivery simulator with some additional twists. The goal of the game is to deliver the food as quickly as possible while dodging obstacles and selectively breaking traffic laws. Faster deliveries means more money for better, faster vehicles, and accessories. Crashing or getting caught speeding results in monetary fines.
 
 The project has been in active development since January 2023, when it started as a capstone project for a group of students at the University of Washington.
+
+![Key Visial](/assets/img/KeyVisual.png)
+
 
 ## Goals
 <p style="text-align: center;"><b> 17% of $5k funding goal reached! </b></p>
