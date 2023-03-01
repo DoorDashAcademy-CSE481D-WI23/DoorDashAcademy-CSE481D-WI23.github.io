@@ -32,7 +32,7 @@ DoorDashAcademy was initially developed at the University of Washington
 
 # Media
 
-![Gameplay from the tutorial](/assets/img/gameplay-tutorial-bike.png)
+![Gameplay from the tutorial](/assets/img/zoom-driving.png)
 
 # Selected Articles
 
