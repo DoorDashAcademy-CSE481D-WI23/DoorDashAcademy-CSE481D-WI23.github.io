@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Devlog: Feb-27-2023"
+date:   2023-02-27 22:01:00 -0800
+categories: devlog
+---
+
+Our trailer is finally here!
+Enjoy!
+
+<div style="display: flex; align-items: center; justify-content: center;">
+<iframe
+  width="640"
+  height="480"
+  src="https://drive.google.com/file/d/1RBJwkVqUVdXvbuz-kHmJZm0w-wgx0_Ii/preview"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+</div>
