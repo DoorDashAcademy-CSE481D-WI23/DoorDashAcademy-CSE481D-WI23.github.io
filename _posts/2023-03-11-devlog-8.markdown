@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Devlog: Mar-11-2023"
+date:   2023-03-11 9:53:00 -0800
+categories: devlog
+---
+
+And that's a wrap!
+We hope you had a blast at convention day.
+It was great to see so many people play our game,
+  especially with some last minute changes to our game.
+
+[comment]: <> TODO: some photos
+
+Based on our analytics, we had quite a bit of playtime during convention day.
+In total, we recorded 56 sessions averaging 4 minutes, 12 seconds each.
+Players completed 147 deliveries, collided with obstacles 2,270 times,
+  and recorded 162 deaths.
+
+Players responded positively to the aesthetic of our
+  game assets as well as the overall game concept.
+A number of attendees remarked on the endless nature
+  of the levels where you can continually make deliveries.
+A few quipped about how our game was a social commentary
+  on trying to strike it rich being a delivery driver.
+No comment on that one.
+Our controls were the most criticized component of our game,
+  so it seems that we haven't completely solved that issue.
+
+Reflecting development over the last 10 weeks,
+  we found it was interesting to step through the entire product life cycle:
+  taking a simple idea all the way to release with paper prototype, playtesting,
+  constant feedback, and iterative improvement on our game.
+Most importantly, game design it not just about development.
+In particular, marketing, publishing, artwork, planning,
+  are all important and take a lot of time and work,
+  and take the most amount of time.
+Overall, this project was a valuable experience.
+
+Where to next?
+We'll see.
+Stay tuned to find out...
