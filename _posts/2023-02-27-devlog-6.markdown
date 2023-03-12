@@ -17,3 +17,10 @@ Enjoy!
   allowfullscreen>
 </iframe>
 </div>
+
+Regarding game progess, we now have a much better player model, complete with a person and animation! 
+This addresses a lot of the feedback we got during our playtesting sessions with the player being
+difficult to see.
+
+A new, much larger map is in the works. This map (called the suburbs) will be 10-20x larger than the
+current city map and be a lot less dense, allowing for an easier transition into the game. 
