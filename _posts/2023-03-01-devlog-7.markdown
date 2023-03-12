@@ -18,8 +18,8 @@ player loses less money on death, an insulated bag so that food stays hot longer
 and a car (which is currently only cosmetic). This will give players a reason to play the
 game for more than a couple of deliveries. See the below images for the in-game look!
 
-![Map Buy Icon](/assets/img/Screen Shot 2023-03-11 at 5.58.20 PM.png)
+![Map Buy Icon](/assets/img/Screen%20Shot%202023-03-11%20at%205.58.20%20PM.png)
 
-![Shop](/assets/img/Screen Shot 2023-03-11 at 5.58.32 PM.png)
+![Shop](/assets/img/Screen%20Shot%202023-03-11%20at%205.58.32%20PM.png)
 
-![Suburbs](/assets/img/Screen Shot 2023-03-11 at 6.01.43 PM.png)
+![Suburbs](/assets/img/Screen%20Shot%202023-03-11%20at%206.01.43%20PM.png)
