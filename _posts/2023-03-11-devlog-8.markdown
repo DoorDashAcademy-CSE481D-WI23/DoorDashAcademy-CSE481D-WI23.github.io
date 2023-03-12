@@ -5,12 +5,13 @@ date:   2023-03-11 9:53:00 -0800
 categories: devlog
 ---
 
+![Convention Day Team Photo](/assets/img/IMG_00004.jpg)
+Not pictured: Riya Dheer, Cole Hahn
+
 And that's a wrap!
 We hope you had a blast at convention day.
 It was great to see so many people play our game,
   especially with some last minute changes to our game.
-
-[comment]: <> TODO: some photos
 
 Based on our analytics, we had quite a bit of playtime during convention day.
 In total, we recorded 56 sessions averaging 4 minutes, 12 seconds each.
