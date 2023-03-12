@@ -5,7 +5,7 @@ date:   2023-03-11 9:53:00 -0800
 categories: devlog
 ---
 
-![Convention Day Team Photo](/assets/img/IMG_00004.jpg)
+![Convention Day Team Photo](/assets/img/IMG_0004.jpg)
 Not pictured: Riya Dheer, Cole Hahn
 
 And that's a wrap!
