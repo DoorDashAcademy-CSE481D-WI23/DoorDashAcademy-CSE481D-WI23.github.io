@@ -10,3 +10,10 @@ If you can make it, we hope to see you there.
 Here is the poster we will be displaying at our booth.
 
 ![Game Poster](/assets/img/game-poster.png)
+
+Our game is now fully playable! The biggest changes include the finished Suburbs map,
+which is unlockable once the player gets enough money to buy it! The shop is now fully
+functional as well, with current upgrades including medical insurance so that the
+player loses less money on death, an insulated bag so that food stays hot longer,
+and a car (which is currently only cosmetic). This will give players a reason to play the
+game for more than a couple of deliveries.
